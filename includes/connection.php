@@ -1,5 +1,6 @@
 <?php
-$conn = mysqli_connect("localhost","root","","quanlihsgd" ) or die ("error" . mysqli_error($conn));
-?>
-
-
+require_once("./config/database.php");
+$conn = mysqli_connect(Database::$host, Database::$username, Database::$password, Database::$dbname);
+if ($conn->connect_error) {
+	die("Connection failed: " . $conn->connect_error);
+}
