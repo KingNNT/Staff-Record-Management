@@ -8,6 +8,7 @@ require_once("../../config/config.php");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?php echo PUBLIC_URI . "style.css" ?>">
+    <link rel="stylesheet" href="./style.css">
     <!-- <link rel="stylesheet" href="<?php echo PUBLIC_URI . "./css/styleHoso.css" ?>"> -->
     <!-- <link rel="stylesheet" type="text/css" href="<?php echo PUBLIC_URI . "./css/stylePopup.css" ?>"> -->
     <link rel="stylesheet" href="<?php echo PUBLIC_URI . "./css/styleTailieu.css" ?>">
@@ -64,7 +65,7 @@ require_once("../../config/config.php");
                     <li>
                         <img src="<?php echo PUBLIC_URI . "/images/logout.png" ?>" style="width: 40px;  margin-bottom:10px;">
                         <br>
-                        <a class="btnLogout" href="<?php echo BASE_URI . "destroySeason.php" ?>">Đăng xuất</a>
+                        <a class="btnLogout" href="<?php echo BASE_URI . "logout.php" ?>">Đăng xuất</a>
                     </li>
                 </ul>
             </div>
@@ -96,7 +97,7 @@ require_once("../../config/config.php");
                         <a href="qltailieu.php" style="font-size: 15px;" class="listItem"><img src="<?php echo PUBLIC_URI . "images/documents.png" ?>" alt=""> QL Tài liệu</a>
                     </li>
                     <li>
-                        <a href="<?php echo BASE_URI . "destroySeason.php" ?>" style="font-size: 15px;" class="listItem">
+                        <a href="<?php echo BASE_URI . "logout.php" ?>" style="font-size: 15px;" class="listItem">
                             <img src="<?php echo PUBLIC_URI . "images/gear.png" ?>" alt="" />
                             Đăng xuất
                         </a>

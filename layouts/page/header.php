@@ -68,7 +68,7 @@ if ($_SESSION['macanbo'] == "1") {
                     <li>
                         <img src="./public/images/logout.png" style="width: 40px;  margin-bottom:10px;">
                         <br>
-                        <a class="btnLogout" href="detroysession.php">Đăng xuất</a>
+                        <a class="btnLogout" href="./lopout.php">Đăng xuất</a>
                     </li>
                 </ul>
             </div>

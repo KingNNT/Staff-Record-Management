@@ -1,6 +1,8 @@
 <?php
 require_once("./header.php");
+require_once("./config/config.php");
 ?>
+
 <div class="containerQlnguoidung">
     <div class="container-fluid">
         <div class="boxCount">
@@ -47,7 +49,7 @@ require_once("./header.php");
                 <a href="qlnguoidung.php">
                     <p class="title">Quản lí Người dùng</p>
                     <div class="imgBox" style="text-align: center;">
-                        <img style="text-align: center;" src="../img/avatar.png">
+                        <img style="text-align: center;" src="<?php echo PUBLIC_URI . "images/avatar" ?>">
                     </div>
                 </a>
             </div>
@@ -63,8 +65,6 @@ require_once("./header.php");
     </div>
 </div>
 
-
-
 <?php
-include("./footer.php");
+require_once("./footer.php");
 ?>
