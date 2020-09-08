@@ -1,3 +1,7 @@
+<?php
+require_once("./config/config.php")
+?>
+
 </div>
 </div>
 <div class="footer">

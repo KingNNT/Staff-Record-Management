@@ -4,11 +4,7 @@ require_once("./config/config.php");
 if ($_SESSION['macanbo'] == "") {
     header('location:' . BASE_URI . 'login.php');
 }
-if ($_SESSION['macanbo'] == "1") {
-    echo "Login success";
-}
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
